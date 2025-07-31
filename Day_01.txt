@@ -1,0 +1,148 @@
+Who made it:
+Python was created by Guido van Rossum in 1991.
+
+Current version (as of 2025):
+Python 3.12 is the latest stable version.
+
+Why it's good:
+
+    * Easy to learn and read (beginner-friendly)
+
+   * Huge community and library support
+
+   * Used in web, AI, data science, automation, etc.
+
+   * Cross-platform and open-source
+   
+   
+# Day 01 of Python Learning
+
+## TOPIC NAME : : Creating variables and assigning values
+
+1. Variable = Variable means a name in which we store some data (such as numbers, text, etc.)
+name = "Nahid_Mahmud"
+age = 21
+
+
+2. Values are placed in Variables using the = sign.
+a = 5
+x = None
+y = True
+name = "Nahid_Mahmud'
+
+3. Print and Type View
+a = 2
+print(type(a))
+# Output: <class 'int'>
+
+04. Variable Naming Rules 
+x = 10      # Valid
+_y = 20     # Valid
+9x = 30     # ❌ invalid
+$y = 40     # ❌ invalid
+Case-sensitive.
+
+05. Holding multiple values together
+a,b,c = 1,2,3
+print(a,b,c)
+The number of values on the right and left sides must be equal.
+a, b = 1, 2, 3   # ❌ ValueError
+
+06. Storing the same value in many variables
+a=b=c=1
+print(a,b,c)
+
+07. Mutable vs Immutable Types
+Mutable (like list): Changing the value inside affects both.
+Immutable (e.g. int, str): The previous value is not changed when a new value is given.
+x = y = [1, 2, 3]
+x[0] = 99
+print(y)   # Output: [99, 2, 3]
+
+08. Nested List
+x = [1, 2, [3, 4, 5], 6]
+print(x[2])      # Output: [3, 4, 5]
+print(x[2][1])   # Output: 4
+
+09. The type of a variable can be changed.
+a = 2
+print(a)   # Output: 2
+a = "New value"
+print(a)   # Output: New value
+
+
+
+##  Block Indentation
+
+10. Indentation means a space at the beginning of the code (usually 4 spaces).
+def say_hello():
+    print("hi") # এখানে ৪টা space দেয়া আছে
+say_hello()
+
+11. Datatypes
+
+*  Booleans (True / False)
+print(True + False)  # Output: 1
+
+* Numbers
+= int, float , complex
+
+ * Strings
+ a = 'hello'    # str
+b = b'hello'   # bytes
+
+* Collections / Sequences
+= list
+a = [1, 2, 3]
+a[0] = 100
+
+= tuple
+a = (1, 2, 3)
+a[0] = 100  # ❌ TypeError
+
+= set 
+a = {1, 2, 3}
+
+= dict – Key-Value
+a = {'name': 'Nahid', 'age': 25}
+
+* Constants
+
+True      # True
+False     # False
+None      # No value
+...       # Ellipsis
+NotImplemented  # Python type – this is not supported
+
+* Checking Type
+a = '123'
+print(type(a))   # <class 'str'>
+
+* Data Type Convert
+a = '123'
+b = int(a)  # str → int
+
+* Collection type convert
+
+a = "nahid"
+print(list(a)) # [ 'n','a','h','i','d' ]
+
+*  Special string
+normal = 'foo\nbar'     # new line 
+escaped = 'foo\\nbar'   # \n
+
+* Mutable Types:
+= list,dict,set
+*Immutable Types:
+= int, float, complex,tuple
+
+ 
+ 
+ [ Day 01 Finished ]
+
+
+
+
+
+
+
